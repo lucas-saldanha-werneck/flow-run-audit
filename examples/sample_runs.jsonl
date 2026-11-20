@@ -1,0 +1,6 @@
+{"flow":"eligibility-check","run_id":"r001","trigger_key":"case-1001","status":"Succeeded","attempt":1,"started_at":"2026-11-19T14:00:00Z","outputs":{"eligible":true},"log":"checked case-1001"}
+{"flow":"eligibility-check","run_id":"r002","trigger_key":"case-1001","status":"Succeeded","attempt":1,"started_at":"2026-11-19T14:00:03Z","outputs":{"eligible":true},"log":"checked case-1001"}
+{"flow":"eligibility-check","run_id":"r003","trigger_key":"case-1002","status":"Succeeded","attempt":1,"started_at":"2026-11-19T14:05:00Z","outputs":{},"log":"checked case-1002"}
+{"flow":"claim-intake","run_id":"r004","trigger_key":"claim-77","status":"Failed","attempt":5,"started_at":"2026-11-19T15:00:00Z","outputs":null,"log":"HTTP 503 from upstream"}
+{"flow":"claim-intake","run_id":"r005","trigger_key":"claim-78","status":"Succeeded","attempt":1,"started_at":"2026-11-19T15:10:00Z","outputs":{"ok":1},"log":"patient jane.doe@example.com SSN 000-12-3456 dob: 1980-01-02"}
+{"flow":"enrollment-sync","run_id":"r006","trigger_key":"enr-9","status":"Running","attempt":1,"started_at":"2026-11-19T09:00:00Z","outputs":null,"log":"waiting for approval"}
